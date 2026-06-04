@@ -1,0 +1,8 @@
+{
+  "users": [
+    { "id": 1, "username": "admin", "password": "123", "role": "admin", "name": "Administrador" },
+    { "id": 2, "username": "tecnico1", "password": "456", "role": "tech", "name": "Luis Técnico" },
+    { "id": 3, "username": "tecnico2", "password": "789", "role": "tech", "name": "Carlos Técnico" },
+    { "id": 4, "username": "cliente", "password": "777", "role": "client", "name": "Juan Cliente" }
+  ]
+}
