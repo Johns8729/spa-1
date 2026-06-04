@@ -1,28 +1,26 @@
 {
   "tickets": [
     {
-      "title": "kevin",
-      "type": "requerimiento",
-      "description": "kwhwjhjwhdj",
-      "clientId": "1",
-      "clientName": "Administrador",
-      "status": "assigned",
-      "technicianId": "2",
-      "technicianName": "Luis Técnico",
-      "createdAt": "2026-06-04T02:56:51.157Z",
-      "id": "qMCMSKMLrfg"
+      "id": "0e6f",
+      "title": "no me aparece el boto para pago",
+      "description": "esta mañana iba a pagar y no pude.",
+      "clientId": "4",
+      "clientName": "Juan Cliente",
+      "status": "pending",
+      "technicianId": null,
+      "technicianName": "Luis",
+      "createdAt": "2026-06-04T12:34:10.673Z"
     },
     {
-      "title": "ffvvv",
-      "type": "requerimiento",
-      "description": "dwqfqfffwq",
-      "clientId": "1",
-      "clientName": "Administrador",
-      "status": "assigned",
+      "id": "a155",
+      "title": "Resuelto",
+      "description": "Hola Juan, tu tiquete ha sido contestato y estamos en mantenimiento.",
+      "clientId": "2",
+      "clientName": "Jhon",
+      "status": "pending",
       "technicianId": "2",
-      "technicianName": "Luis Técnico",
-      "createdAt": "2026-06-04T03:54:27.355Z",
-      "id": "JXAZK8s-FAc"
+      "technicianName": "Kevin",
+      "createdAt": "2026-06-04T12:34:55.160Z"
     }
   ],
   "technicians": [
@@ -34,6 +32,5 @@
       "id": "3",
       "name": "Carlos Técnico"
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
 }
