@@ -83,4 +83,6 @@ const API = 'http://localhost:3002';
 ---
 
 ## 👥 Developer
-*   **John sebastian** **Kevin Mercado** **Luis Piña**
+*    . **John sebastian**
+*    . **Kevin Mercado**
+*    . **Luis Piña**
