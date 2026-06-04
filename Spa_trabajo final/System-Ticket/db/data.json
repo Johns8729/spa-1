@@ -1,18 +1,6 @@
 {
   "tickets": [
     {
-      "title": "kevin is gay",
-      "type": "soporte",
-      "description": "kevin voltro",
-      "clientId": "1",
-      "clientName": "Administrador",
-      "status": "open",
-      "technicianId": null,
-      "technicianName": null,
-      "createdAt": "2026-06-04T02:30:22.082Z",
-      "id": "WYkf0eMxVBo"
-    },
-    {
       "title": "kevin",
       "type": "requerimiento",
       "description": "kwhwjhjwhdj",
@@ -23,6 +11,18 @@
       "technicianName": "Luis Técnico",
       "createdAt": "2026-06-04T02:56:51.157Z",
       "id": "qMCMSKMLrfg"
+    },
+    {
+      "title": "ffvvv",
+      "type": "requerimiento",
+      "description": "dwqfqfffwq",
+      "clientId": "1",
+      "clientName": "Administrador",
+      "status": "assigned",
+      "technicianId": "2",
+      "technicianName": "Luis Técnico",
+      "createdAt": "2026-06-04T03:54:27.355Z",
+      "id": "JXAZK8s-FAc"
     }
   ],
   "technicians": [
