@@ -83,4 +83,4 @@ const API = 'http://localhost:3002';
 ---
 
 ## 👥 Developer
-*   **Johns8729** - *Development & Implementation* - [GitHub](https://github.com)
+*   **John sebastian** **Kevin Mercado** **Luis Piña**
