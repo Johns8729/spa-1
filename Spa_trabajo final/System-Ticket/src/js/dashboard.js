@@ -38,6 +38,8 @@ export async function renderDashboard() {
   loadTickets();
 }
 
-// Función global para que funcione el onclick
+
+// === SOLUCIÓN DE BOTONES (NO BORRES NADA ANTERIOR) ===
 window.renderCreateTicketForm = renderCreateTicketForm;
+window.renderDashboard = renderDashboard;
 window.logout = logout;

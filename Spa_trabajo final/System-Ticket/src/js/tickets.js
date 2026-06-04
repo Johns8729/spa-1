@@ -215,4 +215,40 @@ window.deleteTicket = async function(id) {
   await axios.delete(`${DATA_API}/tickets/${id}`);
   alert('Ticket eliminado');
   renderDashboard();
+}; 
+
+// ==================== SOLUCIÓN DE BOTONES ====================
+// Estas líneas hacen que los botones onclick funcionen
+
+window.editTicket = async function(id) {
+    const user = checkAuth ? checkAuth() : JSON.parse(localStorage.getItem('currentUser'));
+    if (!user) return;
+    
+    try {
+        const res = await axios.get(`http://localhost:3002/tickets/${id}`);
+        const ticket = res.data;
+        
+        // Aquí puedes poner tu código de editar si ya lo tienes
+        alert(`Editando ticket: ${ticket.title}`);
+        // renderDashboard(); // descomenta si quieres volver después
+    } catch(e) {
+        alert("Error al cargar ticket para editar");
+    }
 };
+
+window.deleteTicket = async function(id) {
+    if (confirm("¿Estás seguro de eliminar este ticket?")) {
+        try {
+            await axios.delete(`http://localhost:3002/tickets/${id}`);
+            alert("Ticket eliminado");
+            renderDashboard();
+        } catch(e) {
+            alert("Error al eliminar el ticket");
+        }
+    }
+};
+
+// Asegurar que renderDashboard esté disponible
+if (typeof renderDashboard === 'function') {
+    window.renderDashboard = renderDashboard;
+}
